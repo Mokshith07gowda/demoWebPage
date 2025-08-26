@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laundry Wallah / Laundry Mart</title>
+</head>
+<body>
+
+    <header>
+        <h1 >Welcome to Laundry Wallah / Laundry Mart</h1>
+    </header>
+
+    <section id="About Us">
+        <h2>About Us</h2>
+        <p>
+            Laundry Wallah / Laundry Mart is your trusted partner for all your laundry needs. 
+            We provide fast, reliable, and affordable laundry solutions with a commitment to quality. 
+            From everyday clothes to delicate garments, our team ensures every item is handled with care. 
+            With our modern facilities and professional staff, your laundry experience becomes hassle-free. 
+            Customer satisfaction is our top priority, and we promise convenience right at your doorstep. 
+            Experience fresh, clean, and perfectly ironed clothes with us today!
+        </p>
+    </section>
+
+
+    <section id="Our Laundry">
+        <h2>Our Laundry</h2>
+        <img src="https://media.istockphoto.com/id/1087892428/vector/laundry-service-cartoon-with-coin-vector.jpg?s=612x612&w=0&k=20&c=jKKma7SRPPEVNoFV-2IQ7Hbw6GGTLhTsAPOHL5svlUs=" 
+        alt="Laundry Image" width="200">
+    </section>
+
+
+    <section id="Our Services">
+        <h2>Our Services</h2>
+        <ul>
+            <li>Washing and Drying</li>
+            <li>Ironing and Folding</li>
+            <li>Dry Cleaning</li>
+            <li>Stain Removal</li>
+            <li>Express Services</li>
+            <li>Special Garment Care</li>
+        </ul>
+    </section>
+
+    <section id="Price List">
+        <h2>Price List</h2>
+        <table border="1" >
+            <tr>
+                <th>Service</th>
+                <th>Price</th>
+            </tr>
+            <tr>
+                <td>Washing and Drying</td>
+                <td>Rs 10.00</td>
+            </tr>
+            <tr>
+                <td>Ironing and Folding</td>
+                <td>Rs 5.00</td>
+            </tr>
+            <tr>
+                <td>Dry Cleaning</td>
+                <td>Rs 20.00</td>
+            </tr>
+        </table>
+    </section>
+
+    <section id="Book Now">
+        <h2>Book Now</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" >
+            <br><br>
+
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone">
+            <br><br>
+            <label for="service">Select Service:</label>
+            <br>
+            <select id="service" name="service" ><br>
+                <option value="washing">Washing and Drying</option>
+                <option value="ironing">Ironing and Folding</option>
+                <option value="drycleaning">Dry Cleaning</option>
+            </select>
+            <br><br>
+            <label for="pickup">Pickup Date:</label>
+            <input type="date" id="pickup" name="pickup" >
+            <label for="time">Time:</label>
+            <input type="time" id="time" name="time">
+            <br><br>
+            <label for="delivery">Delivery Date:</label>
+            <input type="date" id="delivery" name="delivery" >
+            <label for="time">Time:</label>
+            <input type="time" id="time" name="time">
+            <br><br>
+            <label for="location">Pickup Location:</label>
+            <input type="text" id="location" name="location">
+            <br><br>
+            <label for="payment">Payment Method:</label>
+            <select id="payment" name="payment">
+                <option value=""></option>
+                <option value="UPI">UPI</option>
+                <option value="debit">Debit Card</option>
+                <option value="credit">Credit Card</option>
+                <option value="netbanking">Net Banking</option>
+                <option value="cash">Cash on Delivery</option>
+            </select>
+            <br><br>
+            <label for="comments">Additional Comments:</label>
+            <textarea id="comments" name="comments" rows="4" cols="50">Enter your comments here...</textarea>
+            <br><br>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <footer >
+        <p>Contact us at: info@laundrymart.com</p>
+    </footer>
+
+</body>
+</html>
